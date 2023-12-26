@@ -2,7 +2,7 @@
 #include<cstdlib>
 #include<ctime>
 using namespace std;
-string unhappy()
+string grade()
 {
    srand(time(0)) ;
    int x = rand()%9 ;
@@ -30,6 +30,6 @@ int main(){
     cin.get();
     cin.get();
     cin.get();
-    cout << "You will get " << unhappy()<<" in this 261102." ;
+    cout << "You will get " << grade()<<" in this 261102." ;
  return 0 ;
 }
